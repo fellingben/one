@@ -16,7 +16,7 @@ jobs:
   sync:
     name: 同步 Split Tunnels
     runs-on: ubuntu-latest
-    timeout-minutes: 15    # 正常耗时数秒；超时后作业会被终止，保活作业仍可继续
+    timeout-minutes: 30    # 正常耗时数秒；超时后作业会被终止，保活作业仍可继续
     permissions:
       contents: read
     steps:
